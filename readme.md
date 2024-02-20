@@ -46,3 +46,11 @@ for i in s:
 
 print(count)
 ```
+
+## Day 2:
+
+- Terminal based app
+- Tuple
+- Set : unordered set
+- Dictionary
+- functions

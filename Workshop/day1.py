@@ -44,6 +44,12 @@ myList.insert(3,[3,5,6,7])
 myList[2:2]=["many",3,4,5]
 print(myList)
 
+#deleting multiple elements 
+
+new_list=[1,3,4,5,6,7,8]
+
+# del new_list[1:4]
+print(new_list)
 
 
 
