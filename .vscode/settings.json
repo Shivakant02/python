@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./Workshop/day2/Terminal app/model/user."
+    ]
+}
