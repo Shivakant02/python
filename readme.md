@@ -54,3 +54,9 @@ print(count)
 - Set : unordered set
 - Dictionary
 - functions
+
+## day3
+
+- OOPs
+- Inheritance
+- Django basic

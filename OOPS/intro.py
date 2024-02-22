@@ -1,7 +1,7 @@
 #*************basic Class and Object*******************
 
 class Car:
-    def __init__(self,user_brand,user_model):
+    def __init__(self,user_brand,user_model):#it is the special method it calls automatically when we create an object
             self.brand=user_brand
             self.model=user_model
     def full_name(self):

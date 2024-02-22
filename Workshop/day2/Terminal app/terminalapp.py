@@ -1,9 +1,33 @@
 #****************Attendence management system*****************
 from Login import login
-
+from Login import studentlogin
 t_username="pradip@limat.com"
 t_password=12345
 t_attendance=90
+student={
+1:{
+      "Name":"Naresh",
+      "userName":"Naresh@gmail.com",
+      "Password":12345678,
+      "Attendance":90,
+      "roll no":1
+},
+2:{
+      "Name":"Gokul",
+      "userName":"gokul@gmail.com",
+      "Password":12345678,
+      "Attendance":90,
+      "roll no":2
+},
+3:{
+      "Name":"Mohit",
+      "userName":"mohit@gmail.com",
+      "Password":12345678,
+      "Attendance":90,
+      "roll no":3
+},
+}
+
 
 
 
@@ -35,10 +59,7 @@ while 1:
                     else:
                           print("Invalid choice , Enter the right choice : ")
     elif ch==2:
-            uname=str(input("Enter the username : "))
-            upass=int(input("Enter the password : "))
-            if uname==t_username and upass==t_password:
-                print("Welcome to the student saction")
+            studentlogin(student)
             while 1:
                     print("Enter 1 to view the attendance")
                   
